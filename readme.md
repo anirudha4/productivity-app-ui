@@ -4,7 +4,7 @@
 > By - Aniruddha Gandhare
 
 ## Live Preview Available Here
-[LIVE PREVIEW](www.productive-ape.netlify,app)
+[LIVE PREVIEW](https://productive-ape.netlify.app)
 
 
 ## Screenshots
