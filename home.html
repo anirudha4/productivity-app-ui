@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApe | Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="group-modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <h3 class="modal-title">ADD GROUP</h3>
+            <form id="modal-form">
+                <input type="text" placeholder="Group name">
+                <button class="btn btn-primary">ADD GROUP</button>
+            </form>
+        </div>
+    </div>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <h3>TodoApe</h3>
+            </div>
+            <div class="profile">
+                <button class="btn btn-danger">Logout <span class="fas fa-sign-out-alt"></span></button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="home-dashboard">
+            <div class="left">
+                <div class="todo-group">
+                    <div class="group">
+                        <div class="bar orange"></div>
+                        <div class="details">
+                            <span class="fas fa-edit"></span>
+                            <h3>General</h3>
+                            <p class="task-remaining">16 Tasks</p>
+                            <p class="task-completed">4 Tasks</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bar blue"></div>
+                        <div class="details">
+                            <span class="fas fa-edit"></span>
+                            <h3>Meeting</h3>
+                            <p class="task-remaining">16 Tasks</p>
+                            <p class="task-completed">4 Tasks</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="bar teal"></div>
+                        <div class="details">
+                            <span class="fas fa-edit"></span>
+                            <h3>Trip</h3>
+                            <p class="task-remaining">16 Tasks</p>
+                            <p class="task-completed">4 Tasks</p>
+                        </div>
+                    </div>
+                    <button class="btn-primary btn" id="open-modal">CREATE GROUP</button>
+                </div>
+                <div class="options">
+                    <div class="option">
+                        <p class="option-text text-orange">
+                            <span class="fas fa-star"></span>
+                            Today
+                        </p>
+                    </div>
+                    <div class="option">
+                        <p class="option-text text-blue">
+                            <span class="fas fa-calendar"></span>
+                            Tomorrow
+                        </p>
+                    </div>
+                    <div class="option">
+                        <p class="option-text text-teal">
+                            <span class="fas fa-calendar-plus"></span>
+                        </p>
+                    </div>
+                    <div class="option">
+                        <p class="option-text text-purple">
+                            <span class="fas fa-bell"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tags">
+                    <div class="tag-header">
+                        <span class="fas fa-tags"></span>
+                    </div>
+                    <div class="tag">
+                        Design
+                    </div>
+                    <div class="tag">
+                        Home
+                    </div>
+                    <div class="tag">
+                        Add Tag
+                        <span class="fas fa-plus"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="top-2">
+                    <div class="todo-card">
+                        <span class="fas fa-chart-pie text-blue"></span>
+                        <small class="type">Meetings</small>
+                        <p class="title">
+                            Meeting with Rupesh
+                        </p>
+                        <div class="schedules text-orange">
+                            TODAY
+                        </div>
+                    </div>
+
+                    <div class="todo-card">
+                        <span class="fas fa-chart-pie text-teal"></span>
+                        <small class="type">Trip</small>
+                        <p class="title">
+                            Trip to Goa
+                        </p>
+                        <div class="schedules text-teal">
+                            SAT
+                        </div>
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <div class="todo">
+                        <div class="circle">
+
+                        </div>
+                        <div class="todo-text">
+                            Drop clothes in laundry
+                        </div>
+                        <span class="fas fa-grip-lines"></span>
+                    </div>
+
+                    <div class="todo">
+                        <div class="circle">
+
+                        </div>
+                        <div class="todo-text">
+                            UI Design for the-joker-box
+                        </div>
+                        <span class="fas fa-grip-lines"></span>
+                    </div>
+
+                    <div class="todo completed">
+                        <div class="circle">
+                            <span class="fas fa-check"></span>
+                        </div>
+                        <div class="todo-text">
+                            <strike>Drop clothes in laundry</strike>
+                        </div>
+                        <span class="fas fa-grip-lines"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <form class="todo-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Type your todo here...">
+                        <span class="fas fa-plus"></span>
+                    </div>
+                    <div class="input-group">
+                        <button class="btn btn-primary">ADD TODO</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
