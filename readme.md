@@ -9,5 +9,5 @@
 
 ## Screenshots
 
-![](https://firebasestorage.googleapis.com/v0/b/dynamite-beff5.appspot.com/o/TODOAPE-UI.jpg?alt=media&token=0220f5c8-8838-4b8e-8614-9bb58f893ded)
+![](https://firebasestorage.googleapis.com/v0/b/dynamite-beff5.appspot.com/o/productivity-app.jpg?alt=media&token=0a4be45f-3127-4f42-a2db-a190d85aa64a)
 
